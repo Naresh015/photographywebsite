@@ -1,0 +1,26 @@
+body{
+	background-image: url(./images/b3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+img{
+	width: 300px;
+	height: 250px;
+	box-shadow: 5px 5px 5px 5px black;
+	margin: 100px 70px 10px 70px;
+	border-radius: 15px;
+}
+h3{
+	margin-left: 90px;
+	color: red;
+	font-size: 20px;
+}
+h2{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+}
+img:hover{
+	transform: scale(1.2);
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>contact us</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+  	h1{
+  		text-align: center; 
+  		 font-weight: bold;
+  		 padding-bottom:60px;
+  	}
+  	img{
+  		width: 400px;
+  		height: 450px;
+  		border-radius: 10px;
+  		box-shadow: 5px 5px 5px 5px gray;
+  	}
+  	img:hover{
+  		transform: scale(1.1);
+  	}
+  	h1:hover{
+  		transform: scale(1.2);
+  	}
+  	body{
+  		background-image: url(./images/c1.jpg); 
+  		background-repeat: no-repeat; 
+  		background-size: cover;
+  	}
+  	#btn:hover{
+  		transform: scale(1.1);
+  	}
+  </style>
+</head>
+<body>
+	<div class="container">
+		<h1 >CONTACT US</h1>
+		<div class="col-md-6" style="float: left;"><img src="./images/c2.jpg"></div>
+		<div class="col-md-6" style="float:left;">
+			<form action="/action_page.php">
+				<div class="form-group">
+					<label for="text">NAME:</label>
+					<input type="text" class="form-control" placeholder="enter the name">
+				</div>
+				<div class="form-group">
+					<label for="text">MAIL:</label>
+					<input type="text" class="form-control" placeholder="enter the mail address">
+				</div>
+				<div class="form-group">
+					<div class="dropdown">
+						<label>SELECT EVENT</label>
+						<select class="form-control">
+							<option>select the given events</option>
+							<option>family events</option>
+							<option>wedding events</option>
+							<option>occational events</option>
+							<option>commersial events</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="numbers">ENTER MOBILE NUMBER</label>
+					<input type="numbers" name="" class="form-control" placeholder="enter mobile number">
+				</div>
+				<div class="form-group">
+					<div class="form-inline">
+						<label><input type="checkbox"> INDOOR EVENTS</label>
+						<label><input type="checkbox"> OUTDOOR EVENTS</label>
+					</div>
+				</div>
+				<div class="form-inline" id="btn">
+					<input type="reset" class="form-control" name="" value="RESET ALL DATA">
+					<input type="submit" class="form-control" name="" value="BOOK AN APPONTMANT"></div>
+
+			</form>
+
+		</div>
+	</div>
+
+</body>
+</html>
